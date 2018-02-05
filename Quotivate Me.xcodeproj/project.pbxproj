@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B502E7D202775BC00F09B71 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B502E7C202775BC00F09B71 /* CardView.swift */; };
+		1B502E8520278D2B00F09B71 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B502E8420278D2B00F09B71 /* MainTableViewController.swift */; };
 		1B6CBBF51FE5961700371E5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6CBBF41FE5961700371E5D /* AppDelegate.swift */; };
 		1B6CBBF71FE5961700371E5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6CBBF61FE5961700371E5D /* ViewController.swift */; };
 		1B6CBBFA1FE5961700371E5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B6CBBF81FE5961700371E5D /* Main.storyboard */; };
 		1B6CBBFC1FE5961700371E5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B6CBBFB1FE5961700371E5D /* Assets.xcassets */; };
 		1B6CBBFF1FE5961700371E5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B6CBBFD1FE5961700371E5D /* LaunchScreen.storyboard */; };
+		1BE03D222028B0FB009C0064 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE03D212028B0FB009C0064 /* NotificationViewController.swift */; };
+		1BE03D242028C662009C0064 /* Notify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE03D232028C662009C0064 /* Notify.swift */; };
+		1BE03D262028D5B2009C0064 /* Quotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE03D252028D5B2009C0064 /* Quotes.swift */; };
+		449D082E669F7806CB32B174 /* Pods_Quotivate_Me.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A557284271C9E1C42D1B7D4D /* Pods_Quotivate_Me.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B502E7C202775BC00F09B71 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CardView.swift; path = "Quotivate Me/Model/CardView.swift"; sourceTree = SOURCE_ROOT; };
+		1B502E8420278D2B00F09B71 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
 		1B6CBBF11FE5961700371E5D /* Quotivate Me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quotivate Me.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B6CBBF41FE5961700371E5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1B6CBBF61FE5961700371E5D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +30,12 @@
 		1B6CBBFB1FE5961700371E5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B6CBBFE1FE5961700371E5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B6CBC001FE5961700371E5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BE03D212028B0FB009C0064 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		1BE03D232028C662009C0064 /* Notify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notify.swift; sourceTree = "<group>"; };
+		1BE03D252028D5B2009C0064 /* Quotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quotes.swift; sourceTree = "<group>"; };
+		91CD6E35D6D0B7A0FF53C8F1 /* Pods-Quotivate Me.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quotivate Me.release.xcconfig"; path = "Pods/Target Support Files/Pods-Quotivate Me/Pods-Quotivate Me.release.xcconfig"; sourceTree = "<group>"; };
+		A557284271C9E1C42D1B7D4D /* Pods_Quotivate_Me.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Quotivate_Me.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C74B8A4BF47B6231FBE8850B /* Pods-Quotivate Me.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quotivate Me.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Quotivate Me/Pods-Quotivate Me.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +43,50 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				449D082E669F7806CB32B174 /* Pods_Quotivate_Me.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B502E7B2027759F00F09B71 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1B6CBBF61FE5961700371E5D /* ViewController.swift */,
+				1B502E8420278D2B00F09B71 /* MainTableViewController.swift */,
+				1BE03D212028B0FB009C0064 /* NotificationViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1B502E7E202775C400F09B71 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1B502E7C202775BC00F09B71 /* CardView.swift */,
+				1BE03D252028D5B2009C0064 /* Quotes.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1B502E812027817F00F09B71 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1B6CBBFB1FE5961700371E5D /* Assets.xcassets */,
+				1B6CBBF81FE5961700371E5D /* Main.storyboard */,
+				1B6CBBFD1FE5961700371E5D /* LaunchScreen.storyboard */,
+				1BE03D232028C662009C0064 /* Notify.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		1B6CBBE81FE5961600371E5D = {
 			isa = PBXGroup;
 			children = (
 				1B6CBBF31FE5961700371E5D /* Quotivate Me */,
 				1B6CBBF21FE5961700371E5D /* Products */,
+				3971EBA5D8D5055847E473E8 /* Pods */,
+				E39FF9E115D07EDF3201A167 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +102,29 @@
 			isa = PBXGroup;
 			children = (
 				1B6CBBF41FE5961700371E5D /* AppDelegate.swift */,
-				1B6CBBF61FE5961700371E5D /* ViewController.swift */,
-				1B6CBBF81FE5961700371E5D /* Main.storyboard */,
-				1B6CBBFB1FE5961700371E5D /* Assets.xcassets */,
-				1B6CBBFD1FE5961700371E5D /* LaunchScreen.storyboard */,
+				1B502E7E202775C400F09B71 /* Model */,
+				1B502E7B2027759F00F09B71 /* Controller */,
+				1B502E812027817F00F09B71 /* View */,
 				1B6CBC001FE5961700371E5D /* Info.plist */,
 			);
 			path = "Quotivate Me";
+			sourceTree = "<group>";
+		};
+		3971EBA5D8D5055847E473E8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C74B8A4BF47B6231FBE8850B /* Pods-Quotivate Me.debug.xcconfig */,
+				91CD6E35D6D0B7A0FF53C8F1 /* Pods-Quotivate Me.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E39FF9E115D07EDF3201A167 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A557284271C9E1C42D1B7D4D /* Pods_Quotivate_Me.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +134,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1B6CBC031FE5961700371E5D /* Build configuration list for PBXNativeTarget "Quotivate Me" */;
 			buildPhases = (
+				37C4B289AD85E5CBEEB879C1 /* [CP] Check Pods Manifest.lock */,
 				1B6CBBED1FE5961700371E5D /* Sources */,
 				1B6CBBEE1FE5961700371E5D /* Frameworks */,
 				1B6CBBEF1FE5961700371E5D /* Resources */,
+				AC32F04D8756D4F254FA2618 /* [CP] Embed Pods Frameworks */,
+				4C6B8B20E5A9FFC56A3944D2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,13 +197,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		37C4B289AD85E5CBEEB879C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Quotivate Me-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C6B8B20E5A9FFC56A3944D2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Quotivate Me/Pods-Quotivate Me-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC32F04D8756D4F254FA2618 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Quotivate Me/Pods-Quotivate Me-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Cartography/Cartography.framework",
+				"${BUILT_PRODUCTS_DIR}/UIColor+FlatColors/UIColor_FlatColors.framework",
+				"${BUILT_PRODUCTS_DIR}/ZLSwipeableViewSwift/ZLSwipeableViewSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cartography.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UIColor_FlatColors.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZLSwipeableViewSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Quotivate Me/Pods-Quotivate Me-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1B6CBBED1FE5961700371E5D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BE03D262028D5B2009C0064 /* Quotes.swift in Sources */,
 				1B6CBBF71FE5961700371E5D /* ViewController.swift in Sources */,
+				1B502E7D202775BC00F09B71 /* CardView.swift in Sources */,
+				1BE03D242028C662009C0064 /* Notify.swift in Sources */,
+				1BE03D222028B0FB009C0064 /* NotificationViewController.swift in Sources */,
 				1B6CBBF51FE5961700371E5D /* AppDelegate.swift in Sources */,
+				1B502E8520278D2B00F09B71 /* MainTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +401,7 @@
 		};
 		1B6CBC041FE5961700371E5D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C74B8A4BF47B6231FBE8850B /* Pods-Quotivate Me.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +417,7 @@
 		};
 		1B6CBC051FE5961700371E5D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91CD6E35D6D0B7A0FF53C8F1 /* Pods-Quotivate Me.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

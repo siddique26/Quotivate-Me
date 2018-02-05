@@ -1,0 +1,18 @@
+PODS:
+  - Cartography (3.0.1)
+  - UIColor+FlatColors (0.0.2)
+  - ZLSwipeableViewSwift (0.0.7)
+
+DEPENDENCIES:
+  - Cartography
+  - UIColor+FlatColors
+  - ZLSwipeableViewSwift
+
+SPEC CHECKSUMS:
+  Cartography: f8c899bb0f5cf20758644a8eea59a75e98a03a5d
+  UIColor+FlatColors: 6c699df7a575281794c688c64cee6c44fd1f93b4
+  ZLSwipeableViewSwift: f5ee94c2e4220f900f5a129118af2aef23062900
+
+PODFILE CHECKSUM: f4ced4dd87e7588ad5a9277041c1ff2952fa61be
+
+COCOAPODS: 1.4.0

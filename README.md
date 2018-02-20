@@ -5,4 +5,4 @@ Motivational Application that will send you notifications of Quotes said by Famo
 Preview
 ---
 
-![Preview](https://github.com/siddique26/Quotivate-Me/blob/master/Quotivate%20Me/Preview/QuotivateMe.gif)
+	<img src="Quotivate Me/Preview/QuotivateMe.gif">
